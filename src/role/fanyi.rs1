@@ -1,0 +1,16 @@
+
+
+
+// struct Fanyi {
+
+// }
+
+// impl Role for Fanyi {
+//     fn name(&self) -> String {
+//         return "fanyi".to_string();
+//     }
+
+//     fn system_prompt(&self) -> String {
+//         return "11".to_string();
+//     }
+// }

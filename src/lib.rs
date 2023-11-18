@@ -33,6 +33,7 @@ async fn handler(sm: SlackMessage, workspace: &str, channel: &str) {
         model: ChatModel::GPT35Turbo,
         restart: false,
         system_prompt: None,
+        ..Default::default()
     };
     log::debug!("get OpenAI settings");
     let of = OpenAIFlows::new();
